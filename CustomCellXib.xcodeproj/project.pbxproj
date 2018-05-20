@@ -12,6 +12,10 @@
 		E2C7AAEB20B191CC00DEC90B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C7AAE920B191CC00DEC90B /* Main.storyboard */; };
 		E2C7AAED20B191CD00DEC90B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C7AAEC20B191CD00DEC90B /* Assets.xcassets */; };
 		E2C7AAF020B191CD00DEC90B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C7AAEE20B191CD00DEC90B /* LaunchScreen.storyboard */; };
+		E2C7AAF920B1927400DEC90B /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7AAF720B1927400DEC90B /* TableViewCell1.swift */; };
+		E2C7AAFA20B1927400DEC90B /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C7AAF820B1927400DEC90B /* TableViewCell1.xib */; };
+		E2C7AAFD20B1938B00DEC90B /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7AAFB20B1938B00DEC90B /* TableViewCell2.swift */; };
+		E2C7AAFE20B1938B00DEC90B /* TableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C7AAFC20B1938B00DEC90B /* TableViewCell2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E2C7AAEC20B191CD00DEC90B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2C7AAEF20B191CD00DEC90B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2C7AAF120B191CD00DEC90B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C7AAF720B1927400DEC90B /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		E2C7AAF820B1927400DEC90B /* TableViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell1.xib; sourceTree = "<group>"; };
+		E2C7AAFB20B1938B00DEC90B /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		E2C7AAFC20B1938B00DEC90B /* TableViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				E2C7AAEC20B191CD00DEC90B /* Assets.xcassets */,
 				E2C7AAEE20B191CD00DEC90B /* LaunchScreen.storyboard */,
 				E2C7AAF120B191CD00DEC90B /* Info.plist */,
+				E2C7AAF720B1927400DEC90B /* TableViewCell1.swift */,
+				E2C7AAF820B1927400DEC90B /* TableViewCell1.xib */,
+				E2C7AAFB20B1938B00DEC90B /* TableViewCell2.swift */,
+				E2C7AAFC20B1938B00DEC90B /* TableViewCell2.xib */,
 			);
 			path = CustomCellXib;
 			sourceTree = "<group>";
@@ -122,9 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C7AAFE20B1938B00DEC90B /* TableViewCell2.xib in Resources */,
 				E2C7AAF020B191CD00DEC90B /* LaunchScreen.storyboard in Resources */,
 				E2C7AAED20B191CD00DEC90B /* Assets.xcassets in Resources */,
 				E2C7AAEB20B191CC00DEC90B /* Main.storyboard in Resources */,
+				E2C7AAFA20B1927400DEC90B /* TableViewCell1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C7AAFD20B1938B00DEC90B /* TableViewCell2.swift in Sources */,
+				E2C7AAF920B1927400DEC90B /* TableViewCell1.swift in Sources */,
 				E2C7AAE820B191CC00DEC90B /* ViewController.swift in Sources */,
 				E2C7AAE620B191CC00DEC90B /* AppDelegate.swift in Sources */,
 			);
